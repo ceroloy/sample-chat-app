@@ -1,0 +1,31 @@
+{
+  "name": "sample-chat-app",
+  "version": "1.0.0",
+  "description": "sample app using socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceroloy/sample-chat-app.git"
+  },
+  "keywords": [
+    "socket",
+    "node",
+    "express"
+  ],
+  "author": "Cemre Göç",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceroloy/sample-chat-app/issues"
+  },
+  "homepage": "https://github.com/ceroloy/sample-chat-app#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
